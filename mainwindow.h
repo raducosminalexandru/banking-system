@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "bankingwindow.h"
+#include <QWidget>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -16,8 +18,17 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void change_name(){
+        this->setWindowTitle("Interfata Sistem Bancar");
+    }
+
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::MainWindow *ui;
+    BankingWindow *OperationalWindow;
 };
 #endif // MAINWINDOW_H
