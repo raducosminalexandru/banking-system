@@ -2,7 +2,7 @@
 #include "./ui_mainwindow.h"
 #include "bankingwindow.h"
 
-MainWindow::MainWindow(QWidget *parent) :
+/*MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
@@ -12,6 +12,15 @@ MainWindow::MainWindow(QWidget *parent) :
     QPalette palette;
     palette.setBrush(QPalette::Window, bkgnd);
     this->setPalette(palette);
+}
+*/
+
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
+    , ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+    ui->label->setStyleSheet("QLabel {color : white; }");
 }
 
 
@@ -23,8 +32,9 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    MainWindow::close();
+    MainWindow::hide();
     OperationalWindow =new BankingWindow(this);
+    OperationalWindow->change_name();
     OperationalWindow->show();
 }
 

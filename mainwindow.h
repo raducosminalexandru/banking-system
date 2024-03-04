@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "bankingwindow.h"
 #include <QWidget>
+#include <QColor>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
