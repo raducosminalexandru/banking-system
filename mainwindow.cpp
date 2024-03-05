@@ -32,7 +32,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    MainWindow::hide();
+    MainWindow::close();
     OperationalWindow =new BankingWindow(this);
     OperationalWindow->change_name();
     OperationalWindow->show();

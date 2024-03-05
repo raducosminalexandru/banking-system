@@ -6,13 +6,131 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>1166</width>
+    <height>634</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(53, 132, 228);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0" colspan="2" alignment="Qt::AlignHCenter|Qt::AlignTop">
+    <widget class="QLabel" name="label_2">
+     <property name="styleSheet">
+      <string notr="true">border: 0px;
+color: rgb(0, 250, 255);
+font-size:34px;</string>
+     </property>
+     <property name="text">
+      <string>Va rugam sa alegeti una dintre urmatoarele actiuni:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2" alignment="Qt::AlignTop">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">border: 0px;
+font: 700 11pt &quot;Umpush&quot;;
+color: rgb(0, 28, 255);
+font-size: 46px;</string>
+     </property>
+     <property name="text">
+      <string>Bine ai venit, test!</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" rowspan="2" colspan="2">
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(26, 95, 180);</string>
+        </property>
+        <property name="text">
+         <string>RETRAGERE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(26, 95, 180);
+</string>
+        </property>
+        <property name="text">
+         <string>DEPUNERE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="pushButton">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(26, 95, 180);</string>
+        </property>
+        <property name="text">
+         <string>AJUTOR</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(26, 95, 180);</string>
+        </property>
+        <property name="text">
+         <string>VERIFICARE BALANTA</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(26, 95, 180);</string>
+        </property>
+        <property name="text">
+         <string>VERIFICARE CONTURI</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(26, 95, 180);</string>
+        </property>
+        <property name="text">
+         <string>IESIRE</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>

@@ -28,6 +28,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         login_tip.qrc
         clouds.qrc
         menu.h menu.cpp menu.ui
+        newbackground.qrc
 
 
     )
