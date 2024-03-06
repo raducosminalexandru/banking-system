@@ -14,113 +14,120 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(255, 255, 255);</string>
+   <string notr="true">background-color: rgb(153, 193, 241);</string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
-   <property name="geometry">
-    <rect>
-     <x>720</x>
-     <y>10</y>
-     <width>531</width>
-     <height>691</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Autentificare</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <widget class="QPushButton" name="login">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>450</y>
-      <width>211</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Autentificare</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>210</y>
-      <width>421</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string>Numele de utilizator:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="username"/>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>290</y>
-      <width>421</width>
-      <height>52</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_3">
-     <item>
-      <layout class="QVBoxLayout" name="verticalLayout_2">
-       <item>
-        <widget class="QLabel" name="label_2">
-         <property name="text">
-          <string>Parola:</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="password"/>
-     </item>
-    </layout>
-   </widget>
-  </widget>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>-10</x>
-     <y>0</y>
-     <width>731</width>
-     <height>691</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(26, 95, 180);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap resource="clouds.qrc">:/res/pexels-donald-tong-139366.jpg</pixmap>
-   </property>
-  </widget>
+  <layout class="QVBoxLayout" name="verticalLayout_5">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">font: 500 11pt &quot;Ubuntu&quot;;
+font-size: 23px;</string>
+     </property>
+     <property name="title">
+      <string>Autentificare</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="label">
+          <property name="maximumSize">
+           <size>
+            <width>500</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 11pt &quot;Ubuntu&quot;;
+color: rgb(53, 132, 228);
+background: transparent;</string>
+          </property>
+          <property name="text">
+           <string>Numele de utilizator:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLineEdit" name="username">
+          <property name="maximumSize">
+           <size>
+            <width>1000</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_2">
+            <property name="maximumSize">
+             <size>
+              <width>500</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 700 11pt &quot;Ubuntu&quot;;
+color: rgb(53, 132, 228);
+background: transparent;</string>
+            </property>
+            <property name="text">
+             <string>Parola:</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLineEdit" name="password">
+            <property name="maximumSize">
+             <size>
+              <width>1000</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QPushButton" name="login">
+        <property name="maximumSize">
+         <size>
+          <width>500</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-size: 15px;</string>
+        </property>
+        <property name="text">
+         <string>Autentificare</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
  </widget>
- <resources>
-  <include location="clouds.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

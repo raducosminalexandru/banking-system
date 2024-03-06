@@ -14,7 +14,9 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(153, 193, 241);</string>
+   <string notr="true">background-color: rgb(153, 193, 241);
+
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -32,6 +34,9 @@
       <layout class="QVBoxLayout" name="verticalLayout_5">
        <item alignment="Qt::AlignLeft|Qt::AlignTop">
         <widget class="QLabel" name="label_pic">
+         <property name="styleSheet">
+          <string notr="true">background: transparent;</string>
+         </property>
          <property name="text">
           <string/>
          </property>
@@ -46,7 +51,8 @@
     <item alignment="Qt::AlignHCenter">
      <widget class="QFrame" name="frame_3">
       <property name="styleSheet">
-       <string notr="true">border: 0px;</string>
+       <string notr="true">border: 0px;
+background: transparent;</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -80,7 +86,8 @@
     <item>
      <widget class="QFrame" name="frame">
       <property name="styleSheet">
-       <string notr="true">border: 0px;</string>
+       <string notr="true">border: 0px;
+background: transparent;</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -120,7 +127,8 @@ color: rgb(255, 255, 255);</string>
     <item>
      <widget class="QFrame" name="frame_2">
       <property name="styleSheet">
-       <string notr="true">border: 0px;</string>
+       <string notr="true">border: 0px;
+background:transparent;</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>

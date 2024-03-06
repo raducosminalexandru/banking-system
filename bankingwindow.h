@@ -3,7 +3,12 @@
 
 #include <QDialog>
 #include "menu.h"
+#include "mapping.h"
 #include <QMessageBox>
+#include <fstream>
+#include <string>
+#include <map>
+#include <utility>
 
 namespace Ui {
 class BankingWindow;

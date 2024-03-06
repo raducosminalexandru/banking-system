@@ -13,7 +13,15 @@ class Menu : public QDialog
 
 public:
     explicit Menu(QWidget *parent = nullptr);
+    void change_name(){
+        this->setWindowTitle("Meniu");
+    }
     ~Menu();
+
+private slots:
+    void on_pushButton_3_clicked();
+
+    void on_IESIRE_clicked();
 
 private:
     Ui::Menu *ui;

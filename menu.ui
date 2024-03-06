@@ -45,7 +45,7 @@ font-size: 46px;</string>
    <item row="3" column="0" rowspan="2" colspan="2">
     <widget class="QFrame" name="frame">
      <property name="styleSheet">
-      <string notr="true"/>
+      <string notr="true">border-color: rgb(255, 255, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::StyledPanel</enum>
@@ -57,7 +57,8 @@ font-size: 46px;</string>
       <item row="1" column="0">
        <widget class="QPushButton" name="pushButton_2">
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(26, 95, 180);</string>
+         <string notr="true">background-color: rgb(26, 95, 180);
+font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
         </property>
         <property name="text">
          <string>RETRAGERE</string>
@@ -68,12 +69,15 @@ font-size: 46px;</string>
        <widget class="QPushButton" name="pushButton_6">
         <property name="maximumSize">
          <size>
-          <width>300</width>
+          <width>200</width>
           <height>50</height>
          </size>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(26, 95, 180);
+         <string notr="true">font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;
+background-color: rgb(26, 95, 180);
+border-color: rgb(255, 255, 255);
+
 </string>
         </property>
         <property name="text">
@@ -84,7 +88,8 @@ font-size: 46px;</string>
       <item row="1" column="1">
        <widget class="QPushButton" name="pushButton">
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(26, 95, 180);</string>
+         <string notr="true">background-color: rgb(26, 95, 180);
+font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
         </property>
         <property name="text">
          <string>AJUTOR</string>
@@ -94,7 +99,8 @@ font-size: 46px;</string>
       <item row="3" column="0">
        <widget class="QPushButton" name="pushButton_5">
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(26, 95, 180);</string>
+         <string notr="true">background-color: rgb(26, 95, 180);
+font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
         </property>
         <property name="text">
          <string>VERIFICARE BALANTA</string>
@@ -105,12 +111,13 @@ font-size: 46px;</string>
        <widget class="QPushButton" name="pushButton_4">
         <property name="maximumSize">
          <size>
-          <width>300</width>
+          <width>200</width>
           <height>16777215</height>
          </size>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(26, 95, 180);</string>
+         <string notr="true">background-color: rgb(26, 95, 180);
+font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
         </property>
         <property name="text">
          <string>VERIFICARE CONTURI</string>
@@ -118,9 +125,10 @@ font-size: 46px;</string>
        </widget>
       </item>
       <item row="3" column="1">
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="IESIRE">
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(26, 95, 180);</string>
+         <string notr="true">background-color: rgb(26, 95, 180);
+font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
         </property>
         <property name="text">
          <string>IESIRE</string>

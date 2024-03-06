@@ -29,6 +29,14 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         clouds.qrc
         menu.h menu.cpp menu.ui
         newbackground.qrc
+        newbackground.qrc
+        newbackground.qrc
+        newbackground.qrc
+        username
+        passwords
+        funds
+        mapping.h
+        mapping.cpp
 
 
     )
