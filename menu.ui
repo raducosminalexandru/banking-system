@@ -18,7 +18,7 @@
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="2" column="0" colspan="2" alignment="Qt::AlignHCenter|Qt::AlignTop">
-    <widget class="QLabel" name="label_2">
+    <widget class="QLabel" name="OPTIUNE_ALEGERE">
      <property name="styleSheet">
       <string notr="true">border: 0px;
 color: rgb(0, 250, 255);
@@ -30,7 +30,7 @@ font-size:34px;</string>
     </widget>
    </item>
    <item row="0" column="0" colspan="2" alignment="Qt::AlignTop">
-    <widget class="QLabel" name="label">
+    <widget class="QLabel" name="BUN_VENIT">
      <property name="styleSheet">
       <string notr="true">border: 0px;
 font: 700 11pt &quot;Umpush&quot;;
@@ -54,61 +54,19 @@ font-size: 46px;</string>
       <enum>QFrame::Raised</enum>
      </property>
      <layout class="QGridLayout" name="gridLayout_2">
-      <item row="1" column="0">
-       <widget class="QPushButton" name="pushButton_2">
+      <item row="3" column="1">
+       <widget class="QPushButton" name="IESIRE">
         <property name="styleSheet">
          <string notr="true">background-color: rgb(26, 95, 180);
 font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
         </property>
         <property name="text">
-         <string>RETRAGERE</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QPushButton" name="pushButton_6">
-        <property name="maximumSize">
-         <size>
-          <width>200</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;
-background-color: rgb(26, 95, 180);
-border-color: rgb(255, 255, 255);
-
-</string>
-        </property>
-        <property name="text">
-         <string>DEPUNERE</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <widget class="QPushButton" name="pushButton">
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(26, 95, 180);
-font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
-        </property>
-        <property name="text">
-         <string>AJUTOR</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0">
-       <widget class="QPushButton" name="pushButton_5">
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(26, 95, 180);
-font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
-        </property>
-        <property name="text">
-         <string>VERIFICARE BALANTA</string>
+         <string>IESIRE</string>
         </property>
        </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QPushButton" name="pushButton_4">
+       <widget class="QPushButton" name="VERIFICARE_CONTURI">
         <property name="maximumSize">
          <size>
           <width>200</width>
@@ -124,14 +82,55 @@ font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
         </property>
        </widget>
       </item>
-      <item row="3" column="1">
-       <widget class="QPushButton" name="IESIRE">
+      <item row="1" column="0">
+       <widget class="QPushButton" name="RETRAGERE">
         <property name="styleSheet">
          <string notr="true">background-color: rgb(26, 95, 180);
 font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
         </property>
         <property name="text">
-         <string>IESIRE</string>
+         <string>RETRAGERE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(26, 95, 180);
+font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
+        </property>
+        <property name="text">
+         <string>AJUTOR</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="DEPUNERE">
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;
+background-color: rgb(26, 95, 180);
+border-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>DEPUNERE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="VERIFICARE_BALANTA">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(26, 95, 180);
+font: 700 italic 11pt &quot;Ubuntu Condensed&quot;;</string>
+        </property>
+        <property name="text">
+         <string>VERIFICARE BALANTA</string>
         </property>
        </widget>
       </item>

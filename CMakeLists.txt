@@ -37,6 +37,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         funds
         mapping.h
         mapping.cpp
+        global.h
+        deposit.h deposit.cpp deposit.ui
+        auxiliar
+        modify_files.h
+        modify_files.cpp
+
 
 
     )

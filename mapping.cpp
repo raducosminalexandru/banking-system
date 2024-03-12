@@ -25,5 +25,9 @@ std::map<std::string,std::pair<std::string,int>> user_details(const std::string 
         data_map[username] = std::make_pair(password,fund);
     }
 
+    username_file.close();
+    password_file.close();
+    funds_file.close();
+
     return data_map;
 }

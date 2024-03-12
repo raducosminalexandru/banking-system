@@ -4,6 +4,7 @@
 #include <QDialog>
 #include "menu.h"
 #include "mapping.h"
+#include "global.h"
 #include <QMessageBox>
 #include <fstream>
 #include <string>
@@ -23,6 +24,7 @@ public:
     void change_name(){
         this->setWindowTitle("Autentificare");
     }
+    std::string return_username();
     ~BankingWindow();
 
 private slots:
