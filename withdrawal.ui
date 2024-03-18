@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>deposit</class>
- <widget class="QDialog" name="deposit">
+ <class>withdrawal</class>
+ <widget class="QDialog" name="withdrawal">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>914</width>
-    <height>470</height>
+    <width>600</width>
+    <height>419</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(53, 132, 228);</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_2">
+  <layout class="QVBoxLayout" name="verticalLayout">
    <item alignment="Qt::AlignHCenter">
     <widget class="QLabel" name="INFO">
      <property name="maximumSize">
@@ -30,7 +30,7 @@
 font: 500 italic 20pt &quot;Ubuntu&quot;;</string>
      </property>
      <property name="text">
-      <string>Selectati suma pe care doriti sa o depuneti:</string>
+      <string>Selectati suma pe care doriti sa o retrageti:</string>
      </property>
     </widget>
    </item>
@@ -42,13 +42,13 @@ font: 500 italic 20pt &quot;Ubuntu&quot;;</string>
     </widget>
    </item>
    <item alignment="Qt::AlignHCenter">
-    <widget class="QPushButton" name="DEPUNE">
+    <widget class="QPushButton" name="RETRAGE">
      <property name="styleSheet">
       <string notr="true">background-color: rgb(255, 255, 255);
 font: 600 11pt &quot;URW Bookman&quot;;</string>
      </property>
      <property name="text">
-      <string>DEPUNE</string>
+      <string>RETRAGE</string>
      </property>
     </widget>
    </item>
@@ -56,11 +56,11 @@ font: 600 11pt &quot;URW Bookman&quot;;</string>
     <widget class="QLabel" name="NEWS">
      <property name="styleSheet">
       <string notr="true">background: transparent;
-color: rgb(30, 255, 1);
-font: 500 italic 20pt &quot;Ubuntu&quot;;</string>
+font: 500 italic 20pt &quot;Ubuntu&quot;;
+color: rgb(30, 255, 1);</string>
      </property>
      <property name="text">
-      <string>Felicitari, acum aveti suma de </string>
+      <string>Felicitari, aveti acum suma de </string>
      </property>
     </widget>
    </item>

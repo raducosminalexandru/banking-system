@@ -24,14 +24,14 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         bankingwindow.h bankingwindow.cpp bankingwindow.ui
-        background.qrc
-        login_tip.qrc
-        clouds.qrc
+
+
+
         menu.h menu.cpp menu.ui
-        newbackground.qrc
-        newbackground.qrc
-        newbackground.qrc
-        newbackground.qrc
+
+
+
+
         username
         passwords
         funds
@@ -42,6 +42,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         auxiliar
         modify_files.h
         modify_files.cpp
+        withdrawal.h withdrawal.cpp withdrawal.ui
+        balance_check.h balance_check.cpp balance_check.ui
+        new_action.h new_action.cpp new_action.ui
+        account.h account.cpp account.ui
 
 
 

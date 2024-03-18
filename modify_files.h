@@ -3,6 +3,8 @@
 
 #include <fstream>
 #include <string>
+#include <iomanip>
+
 #include "global.h"
 
 void modify_funds(std::string funds, std::string auxiliary);

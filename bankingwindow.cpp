@@ -3,6 +3,9 @@
 
 std::string g_username;
 int g_position = 0;
+std::string path_usernames("/home/cosmin/banking-system/username");
+std::string path_funds("/home/cosmin/banking-system/funds");
+std::string path_passwords("/home/cosmin/banking-system/passwords");
 
 
 BankingWindow::BankingWindow(QWidget *parent)
@@ -29,9 +32,9 @@ void BankingWindow::on_login_clicked()
     QString password = ui->password->text();
     int ok = 0;
 
-    std::map<std::string,std::pair<std::string,int>> data_map = user_details("/home/cosmin/banking-system/username",
-                                                                             "/home/cosmin/banking-system/passwords",
-                                                                             "/home/cosmin/banking-system/funds");
+    std::map<std::string,std::pair<std::string,int>> data_map = user_details(path_usernames,
+                                                                             path_passwords,
+                                                                               path_funds);
 
     for(auto i:data_map){
         g_position++;

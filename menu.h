@@ -2,11 +2,18 @@
 #define MENU_H
 
 #include <QDialog>
+#include <QMessageBox>
+#include <QDesktopServices>
+#include <QUrl>
+
 #include "mapping.h"
 #include <QLabel>
 #include "global.h"
 #include "deposit.h"
-#include <QMessageBox>
+#include "withdrawal.h"
+#include "balance_check.h"
+#include "account.h"
+
 
 namespace Ui {
 class Menu;
@@ -40,7 +47,10 @@ private slots:
 
 private:
     Ui::Menu *ui;
-    deposit* dep;
+    deposit *dep;
+    withdrawal *wit;
+    balance_check *bal;
+    account* acc;
 };
 
 #endif // MENU_H

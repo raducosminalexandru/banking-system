@@ -19,7 +19,7 @@ void modify_funds(std::string funds, std::string auxiliary){
 
     while(std::getline(input,line)){
         if(counter == g_position - 1){
-            intermediate << g_funds << std::endl;
+            intermediate << std::fixed << std::setprecision(4) << g_funds << std::endl;
         }
 
         else intermediate << line << std::endl;

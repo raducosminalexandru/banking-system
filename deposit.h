@@ -3,8 +3,12 @@
 
 #include <QDialog>
 #include <QMessageBox>
+#include <QCloseEvent>
+
 #include "global.h"
 #include "modify_files.h"
+
+class new_action;
 
 namespace Ui {
 class deposit;
@@ -25,6 +29,8 @@ private slots:
 
 private:
     Ui::deposit *ui;
+    new_action *another_action;
+    void closeEvent(QCloseEvent* event) override;
 };
 
 #endif // DEPOSIT_H
