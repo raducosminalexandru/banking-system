@@ -26,7 +26,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         bankingwindow.h bankingwindow.cpp bankingwindow.ui
 
 
-
         menu.h menu.cpp menu.ui
 
 

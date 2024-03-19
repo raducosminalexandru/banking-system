@@ -43,10 +43,10 @@ void BankingWindow::on_login_clicked()
             if(i.second.first == password.toStdString()){
                 g_username = username.toStdString();
                 g_funds = i.second.second;
-                MenuWindow = new Menu(this);
+                MenuWindow = new Menu();
                 MenuWindow->change_name();
                 MenuWindow->show();
-                this->hide();
+                this->close();
             }
 
             else{
@@ -61,4 +61,18 @@ void BankingWindow::on_login_clicked()
         QMessageBox::warning(this,"Eroare!","Numele nu exista in baza de date!");
     }
 }
+
+void BankingWindow::mousePressEvent(QMouseEvent *event)
+{
+    if (event->button() == Qt::LeftButton) {
+        ui->username->clearFocus();
+        ui->password->clearFocus();
+        ui->login->clearFocus();
+    }
+
+    QDialog::mousePressEvent(event);
+}
+
+
+
 

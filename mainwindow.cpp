@@ -20,7 +20,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
     MainWindow::close();
-    OperationalWindow =new BankingWindow(this);
+    OperationalWindow =new BankingWindow();
     OperationalWindow->change_name();
     OperationalWindow->show();
 }

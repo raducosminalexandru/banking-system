@@ -15,9 +15,9 @@ new_action::~new_action()
 
 void new_action::on_YES_clicked()
 {
-    menu_window = new Menu(this);
+    menu_window = new Menu();
     menu_window->show();
-    this->hide();
+    this->close();
 }
 
 

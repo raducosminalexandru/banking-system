@@ -2,11 +2,12 @@
 #define BANKINGWINDOW_H
 
 #include <QDialog>
+#include <QMessageBox>
+#include <QMouseEvent>
+
 #include "menu.h"
 #include "mapping.h"
 #include "global.h"
-
-#include <QMessageBox>
 #include <fstream>
 #include <string>
 #include <map>
@@ -34,6 +35,7 @@ private slots:
 private:
     Ui::BankingWindow *ui;
     Menu *MenuWindow;
+    void mousePressEvent(QMouseEvent *event);
 };
 
 #endif // BANKINGWINDOW_H

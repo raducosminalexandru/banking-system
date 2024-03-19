@@ -20,34 +20,33 @@ Menu::~Menu()
 
 void Menu::on_DEPUNERE_clicked()
 {
-    dep = new deposit(this);
+    dep = new deposit();
     dep->show();
-
-    this->hide();
+    this->close();
 }
 
 
 void Menu::on_RETRAGERE_clicked()
 {
-    wit = new withdrawal(this);
+    wit = new withdrawal();
     wit->show();
-    this->hide();
+    this->close();
 }
 
 
 void Menu::on_VERIFICARE_BALANTA_clicked()
 {
-    bal = new balance_check(this);
+    bal = new balance_check();
     bal->show();
-    this->hide();
+    this->close();
 }
 
 
 void Menu::on_VERIFICARE_CONTURI_clicked()
 {
-    acc = new account(this);
+    acc = new account();
     acc->show();
-    this->hide();
+    this->close();
 }
 
 
