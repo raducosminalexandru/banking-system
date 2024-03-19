@@ -1,7 +1,5 @@
 # Aplicație Bancară în Qt
 
-![Logo Aplicație](link_catre_logo)
-
 ## Descriere
 
 Această aplicație este o simulare a interfeței folosite în bancomatele BCR. Ea oferă utilizatorilor o experiență similară cu cea a utilizării unui bancomat real pentru a efectua diverse operațiuni bancare.
@@ -14,11 +12,9 @@ Această aplicație este o simulare a interfeței folosite în bancomatele BCR. 
 - Transferuri între conturi
 - Istoricul tranzacțiilor
 
-## Capturi de ecran
+## Rulare program
 
-![Captură de ecran 1](link_catre_captura_1)
-![Captură de ecran 2](link_catre_captura_2)
-![Captură de ecran 3](link_catre_captura_3)
+- Exemplu de rulare al programului se poate gasi la acest link: https://gifyu.com/image/SUOhi
 
 ## Cerințe de Sistem
 
@@ -57,4 +53,4 @@ Numele Autorului - [@raducosminalexandru](https://github.com/raducosminalexandru
 
 ## Licență
 
-Acest proiect este licențiat sub licența MIT - consultați fișierul [LICENSE](LICENSE) pentru detalii suplimentare.
+Acest proiect este licențiat sub licența MIT.
