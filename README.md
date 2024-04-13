@@ -18,7 +18,7 @@ Această aplicație este o simulare a interfeței folosite în bancomatele BCR. 
 
 ## Cerințe de Sistem
 
-- Qt Framework (versiune x.x sau mai mare)
+- Qt Framework (versiune 12.0.2 sau mai mare)
 - C++ Compiler (compatibil cu Qt)
 - Sistem de operare compatibil (Windows, macOS, Linux)
 
